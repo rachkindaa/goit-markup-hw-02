@@ -14,7 +14,7 @@ body {
     font-family: "Roboto", sans-serif;
 } 
 
-ul {
+.list {
     list-style: none;
 }
 
@@ -63,10 +63,6 @@ ul {
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--secondary-accent-color);
-}
-
-.site-nav .link.current {
-    color: var(--accent-color);
 }
 
 .link {
@@ -160,6 +156,10 @@ ul {
 
 .team-list .title {
     text-align: center;
+}
+
+.item {
+    background-color: var(--primary-white-color);
 }
 
 .text {
